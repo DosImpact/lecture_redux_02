@@ -24,7 +24,7 @@ const todoPersistConfig = {
 const rootReducer = combineReducers({
     user: persistReducer(userPersistConfig, user),
     counter: persistReducer(counterPersistConfig, counter),
-    todo//:persistReducer(todoPersistConfig, todo)
+    todo: persistReducer(todoPersistConfig, todo)
 });
 
 export default rootReducer;
